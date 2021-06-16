@@ -1,5 +1,6 @@
 # Reinforcement-Learning-repo
-A repo where I look into the details and practice on how to properly utilize reinforcement learning
+A repo where I look into the details and practice on how to properly utilize reinforcement learning. I try out different AI models and evaluate their performance
+to test out which does best.
 
 ## Phases(base line alg and setup).
 1) Classic control(1/3): pendulum(done), mountain car, mountain car continuous.
