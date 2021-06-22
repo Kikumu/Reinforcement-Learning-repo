@@ -59,4 +59,5 @@ Average/Overall reward(per 200 eps) | - | -
 All credits goes to deeplizard. Visit their yt channel here: https://www.youtube.com/channel/UC4UJ26WkceqONNF5S26OiVw
 
 # Other resources.
-https://arxiv.org/abs/2005.14419
+1) https://arxiv.org/abs/2005.14419
+2) https://d3c33hcgiwev3.cloudfront.net/Ph9QFZnEEemRfw7JJ0OZYA_808e8e7d9a544e1eb31ad11069d45dc4_RLbook2018.pdf?Expires=1624492800&Signature=KJBvWJSHe5fr1OvTQWuLDGKdaTUFcmQe9EwvOYhIhfmPfQaQzPJZr4NWGDKgGEjKrHSrBMbmlabY2-AcuORcoUSBB4522vSZipuZb3LXlg552LU4NUI50-G55oKxgX2mGe3Z5X2pQA1QDV1ijBdz1bCZNvnlpPgTz6Oz8iOU4WQ_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
