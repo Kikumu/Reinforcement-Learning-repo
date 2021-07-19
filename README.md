@@ -5,25 +5,31 @@ to test out which does best. Please note this is a project i do in my free time 
 *Please note - running current model on cpu will be mind numbingly slow. I highly recommend either reducing network size (i.e parameters/layers/number of hidden layers) and reducing batch size(if running on cpu). Running on cuda cores is highly recommended*
 
 ## Phases(base line alg and setup).
-1) Classic control(1/3): pendulum(in progress), mountain car, mountain car continuous.
+1) Classic control(1/3): pendulum(solved), mountain car, mountain car continuous.
 2) Mujoco (0/10)
 3) Robotics (0/10)
 
 ## Model(s) used/Evaluation metrics.
 ### Classic control.
 
-#### Pendulum(LSTM + 2 FC LAYER).
+#### Pendulum(TD(0)) - Doesnt work.
 
 Episodes trained | #- | #- 
 --- | --- | --- 
 Average/Overall reward(per 200 eps) | - | - 
 
-#### Pendulum(Convnet + 2 FC LAYER).
+#### Pendulum(Policy grad monte carlo) - Doesnt work.
 
 Episodes trained | #- | #- 
 --- | --- | --- 
 Average/Overall reward(per 200 eps) | - | - 
 
+
+#### Pendulum(DDPG) - Works like a charm.
+
+Episodes trained | #300 | #- 
+--- | --- | --- 
+Average/Overall reward(last 200 eps) | - | - 
 
 
 #### Mountain car(LSTM + 2 FC LAYER).
